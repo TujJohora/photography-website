@@ -485,3 +485,12 @@ header {
 .collage-image img:hover {
   filter: saturate(1) brightness(1);
 }
+
+/*============================FOOTER=====================*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  text-align: center;
+}
