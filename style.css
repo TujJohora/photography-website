@@ -281,3 +281,77 @@ header {
   top: 0;
   left: 19rem;
 }
+
+/*============================ABOUT=====================*/
+
+#about {
+  margin-top: 20rem;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 43% 53%;
+  gap: 4%;
+
+  position: relative;
+}
+
+.about-image-bg {
+  width: 12rem;
+  height: 17rem;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  background-color: var(--color-bg-4);
+}
+
+.about-image-lg {
+  width: 20rem;
+  overflow: hidden;
+
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+
+  filter: saturate(0) brightness(0.5);
+  transition: var(--transition);
+}
+
+.about-image-md {
+  width: 18rem;
+  height: 18rem;
+  overflow: hidden;
+
+  position: absolute;
+  bottom: 6rem;
+  left: 6rem;
+
+  transition: var(--transition);
+}
+
+.about-left:hover .about-image-md {
+  opacity: 0;
+}
+
+.about-left:hover .about-image-lg {
+  filter: saturate(1) brightness(1);
+
+  border: 1rem solid var(--color-bg-4);
+  bottom: 0;
+  left: 0;
+}
+
+.about-right {
+  margin-left: 1rem;
+}
+
+.about-title {
+  margin-bottom: 2rem;
+}
+
+.about-right p {
+  width: 91%;
+  margin-bottom: 0.5rem;
+}
