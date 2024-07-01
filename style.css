@@ -669,6 +669,7 @@ footer {
   .header-container,
   .about-container,
   .gallery-container {
+    padding: 3rem;
     display: flex;
     flex-direction: column;
     place-items: center;
@@ -676,7 +677,7 @@ footer {
   }
 
   h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .header-left p {
@@ -708,7 +709,7 @@ footer {
   #about,
   #gallery,
   #collage {
-    margin-top: 8rem;
+    margin-top: 5rem;
   }
 
   .about-right p {
