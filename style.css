@@ -669,7 +669,7 @@ footer {
   .header-container,
   .about-container,
   .gallery-container {
-    padding: 3rem;
+    padding: 0.5rem;
     display: flex;
     flex-direction: column;
     place-items: center;
